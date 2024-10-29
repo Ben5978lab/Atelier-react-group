@@ -1,7 +1,7 @@
 import data from "../data/championData.json";
 import FilterList from "./FilterList";
 import "./ListChampion.component.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Dispatch, SetStateAction } from "react";
 
 interface Champion {
   role: string;
@@ -12,8 +12,17 @@ interface Champion {
   description: string;
 }
 
-function ListChampion() {
-  const [championList, setChampionList] = useState<Champion[]>([]);
+interface ListChampionProps {
+  searched: string;
+  championList: Champion[];
+  setChampionList: Dispatch<SetStateAction<Champion[]>>;
+}
+
+function ListChampion({
+  searched,
+  championList,
+  setChampionList,
+}: ListChampionProps) {
   const [roleFilter, setRoleFilter] = useState<string>("0");
   const [originFilter, setOriginFilter] = useState<string>("0");
   const [specieFilter, setSpecieFilter] = useState<string>("0");
@@ -24,7 +33,7 @@ function ListChampion() {
 
   useEffect(() => {
     filterChampionList();
-  }, [roleFilter, originFilter, specieFilter]);
+  }, [roleFilter, originFilter, specieFilter, searched]);
 
   function filterChampionList() {
     const filters = {
@@ -34,6 +43,7 @@ function ListChampion() {
     };
     const filteredChampions = data.filter((hero) => {
       return (
+        hero.name.toLowerCase().includes(searched.toLocaleLowerCase()) &&
         (!filters.role || hero.role === filters.role) &&
         (!filters.origin || hero.origine === filters.origin) &&
         (!filters.species || hero.species === filters.species)

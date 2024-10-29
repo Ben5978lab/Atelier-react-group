@@ -1,32 +1,32 @@
-import "./Header.css"
-import "../index.css"
-import SearchBar from "../components/SearchBar"
-import data from '../data/championData.json'
+import "./Header.css";
+import "../index.css";
+import SearchBar from "../components/SearchBar";
+import { Dispatch, SetStateAction } from "react";
 
 interface Champion {
-    role: string;
-    name: string;
-    img: string;
-    origine: string;
-    species: string;
-    description: string;
+  role: string;
+  name: string;
+  img: string;
+  origine: string;
+  species: string;
+  description: string;
 }
 
-function Header() {
-    function handleOnChange(filteredData: Champion[]) {
-        console.log(filteredData)
-        // recuperation de la data filtrée
-    }
+interface HeaderProps {
+  searched: string;
+  setSearched: Dispatch<SetStateAction<string>>;
+}
 
-    return (
-        <header>
-            <h1> LOL Champions Explorer</h1>
-            <nav>
-                <SearchBar initialList={data} handleOnChange={handleOnChange} />
-                <button id="btn"> Validez</button>
-            </nav>
-        </header>
-    );
+function Header({ searched, setSearched }: HeaderProps) {
+  return (
+    <header>
+      <h1> LOL Champions Explorer</h1>
+      <nav>
+        <SearchBar searched={searched} setSearched={setSearched} />
+        <button id="btn"> Validez</button>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;

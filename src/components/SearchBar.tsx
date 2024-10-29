@@ -1,45 +1,24 @@
-import React, { useEffect, useState } from "react";
-
-interface Champion {
-    role: string;
-    name: string;
-    img: string;
-    origine: string;
-    species: string;
-    description: string;
-}
+import React, { Dispatch, SetStateAction } from "react";
 
 interface SearchBarProps {
-    initialList: Champion[];  // Liste complète non filtrée
-    handleOnChange: (filteredData: Champion[]) => void;
+  searched: string;
+  setSearched: Dispatch<SetStateAction<string>>;
 }
 
-const SearchBar = ({ initialList, handleOnChange }: SearchBarProps) => {
-    const [value, setValue] = useState("");
+const SearchBar = ({ searched, setSearched }: SearchBarProps) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearched(event.target.value);
+  };
 
-    useEffect(() => {
-        // Filtre la liste chaque fois que la valeur de recherche change
-        const filteredList = value
-            ? initialList.filter((hero) =>
-                hero.name.toLowerCase().includes(value.toLowerCase())
-            )
-            : initialList;
-        handleOnChange(filteredList); // Met à jour uniquement avec les résultats filtrés ou la liste complète
-    }, [value, initialList, handleOnChange]);
-
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setValue(event.target.value);
-    };
-
-    return (
-        <input
-            type="text"
-            placeholder="Rechercher votre champion"
-            name="search"
-            onChange={handleChange}
-            value={value}
-        />
-    );
+  return (
+    <input
+      type="text"
+      placeholder="Search your champion"
+      name="search"
+      onChange={handleChange}
+      value={searched}
+    />
+  );
 };
 
 export default SearchBar;
