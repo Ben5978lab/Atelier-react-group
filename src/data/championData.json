@@ -1,0 +1,378 @@
+[
+    {
+        "role": "Fighter",
+        "name": "Garen",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+        "origine": "Demacia",
+        "species": "Human",
+        "description": "Garen est un guerrier valeureux de Demacia, connu pour son courage et sa force sur le champ de bataille."
+    },
+    {
+        "role": "Mage",
+        "name": "Aurelion Sol",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+        "origine": "Shurima",
+        "species": "Celestial",
+        "description": "Aurelion Sol est un dragon céleste capable de façonner des étoiles et de les déplacer à sa guise."
+    },
+    {
+        "role": "Marksman",
+        "name": "Jinx",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+        "origine": "Piltover",
+        "species": "Human",
+        "description": "Jinx est une criminelle anarchique qui aime le chaos et la destruction, armée de ses armes explosives."
+    },
+    {
+        "role": "Support",
+        "name": "Soraka",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg",
+        "origine": "Ionia",
+        "species": "Celestial",
+        "description": "Soraka est une guérisseuse qui a renoncé à son immortalité pour aider les mortels."
+    },
+    {
+        "role": "Tank",
+        "name": "Malphite",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_0.jpg",
+        "origine": "Shurima",
+        "species": "Elemental",
+        "description": "Malphite est un être fait de pierre, capable de contrôler la terre et de provoquer des tremblements de terre."
+    },
+    {
+        "role": "Assassin",
+        "name": "Zed",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
+        "origine": "Ionia",
+        "species": "Human",
+        "description": "Zed est un maître des ombres, utilisant des techniques secrètes pour éliminer ses ennemis avec précision."
+    },
+    {
+        "role": "Support",
+        "name": "Janna",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg",
+        "origine": "Bilgewater",
+        "species": "Elemental",
+        "description": "Janna est l'esprit du vent, utilisant ses pouvoirs pour protéger ceux qui en ont besoin."
+    },
+    {
+        "role": "Mage",
+        "name": "Lux",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+        "origine": "Demacia",
+        "species": "Human",
+        "description": "Lux est une magicienne brillante qui utilise la lumière pour combattre ses ennemis."
+    },
+    {
+        "role": "Fighter",
+        "name": "Riven",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
+        "origine": "Noxus",
+        "species": "Human",
+        "description": "Riven est une guerrière qui manie une épée brisée, en quête de rédemption."
+    },
+    {
+        "role": "Assassin",
+        "name": "Katarina",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
+        "origine": "Noxus",
+        "species": "Human",
+        "description": "Katarina est une assassine agile, experte en lancés de couteaux."
+    },
+    {
+        "role": "Tank",
+        "name": "Leona",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
+        "origine": "Demacia",
+        "species": "Human",
+        "description": "Leona est une guerrière au service du soleil, protégée par une armure imposante."
+    },
+    {
+        "role": "Marksman",
+        "name": "Ashe",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+        "origine": "Freljord",
+        "species": "Human",
+        "description": "Ashe est la reine des archers, utilisant la glace pour contrôler le champ de bataille."
+    },
+    {
+        "role": "Mage",
+        "name": "Zyra",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg",
+        "origine": "Ionia",
+        "species": "Human",
+        "description": "Zyra est une sorcière de la nature, capable de contrôler des plantes pour attaquer ses ennemis."
+    },
+    {
+        "role": "Fighter",
+        "name": "Darius",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+        "origine": "Noxus",
+        "species": "Human",
+        "description": "Darius est un général de Noxus, reconnu pour sa force écrasante sur le champ de bataille."
+    },
+    {
+        "role": "Assassin",
+        "name": "Talon",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg",
+        "origine": "Ionia",
+        "species": "Human",
+        "description": "Talon est un assassin silencieux, expert en discrétion et en embuscade."
+    },
+    {
+        "role": "Mage",
+        "name": "Brand",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
+        "origine": "Freljord",
+        "species": "Human",
+        "description": "Brand est un mage du feu, utilisant la pyromancie pour inciner ses adversaires."
+    },
+    {
+        "role": "Tank",
+        "name": "Tahm Kench",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/TahmKench_0.jpg",
+        "origine": "Bilgewater",
+        "species": "Demon",
+        "description": "Tahm Kench est un démon vorace, capable de dévorer ses ennemis et de les transporter à sa guise."
+    },
+    {
+        "role": "Fighter",
+        "name": "Renekton",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renekton_0.jpg",
+        "origine": "Shurima",
+        "species": "Crocodile",
+        "description": "Renekton est un crocodile géant, furieux et puissant, qui défend sa terre natale."
+    },
+    {
+        "role": "Support",
+        "name": "Nami",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg",
+        "origine": "Bilgewater",
+        "species": "Merman",
+        "description": "Nami est une sirène, capable de contrôler les marées et de soigner ses alliés."
+    },
+    {
+        "role": "Marksman",
+        "name": "Kai'Sa",
+        "img": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/33ac4d0acbbdb7f6d3b36520c0a78873052d271a-1920x1133.jpg",
+        "origine": "Void",
+        "species": "Human",
+        "description": "Kai'Sa est une chasseresse du Vide, utilisant des armes technologiques pour survivre."
+    },
+    {
+        "role": "Mage",
+        "name": "Ryze",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
+        "origine": "Runeterra",
+        "species": "Human",
+        "description": "Ryze est un mage puissant, à la recherche de connaissances anciennes pour contrôler la magie."
+    },
+    {
+        "role": "Fighter",
+        "name": "Camille",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+        "origine": "Piltover",
+        "species": "Human",
+        "description": "Camille est une assassin d'élite, spécialisée dans le combat à mains nues et la précision."
+    },
+    {
+        "role": "Tank",
+        "name": "Braum",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+        "origine": "Freljord",
+        "species": "Human",
+        "description": "Braum est un protecteur au cœur d'or, utilisant son bouclier pour défendre ses alliés."
+    },
+    {
+        "role": "Support",
+        "name": "Seraphine",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg",
+        "origine": "Piltover",
+        "species": "Human",
+        "description": "Seraphine est une chanteuse capable d'utiliser la musique pour soutenir et guérir ses alliés."
+    },
+    {
+        "role": "Assassin",
+        "name": "Kayn",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg",
+        "origine": "Ionia",
+        "species": "Human",
+        "description": "Kayn est un assassin qui manie une faux et peut se transformer en différentes formes."
+    },
+    {
+        "role": "Mage",
+        "name": "Fizz",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
+        "origine": "Bilgewater",
+        "species": "Yordle",
+        "description": "Fizz est un yordle agile qui utilise son habileté pour déjouer ses ennemis dans les eaux troubles."
+    },
+    {
+        "role": "Fighter",
+        "name": "Irelia",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
+        "origine": "Ionia",
+        "species": "Human",
+        "description": "Irelia est une maîtresse des lames, capable de contrôler des armes flottantes avec aisance."
+    },
+    {
+        "role": "Support",
+        "name": "Rakan",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rakan_0.jpg",
+        "origine": "Ionia",
+        "species": "Vastaya",
+        "description": "Rakan est un charmeur agile, capable de protéger ses alliés tout en restant rapide et mobile."
+    },
+    {
+        "role": "Tank",
+        "name": "Sion",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_0.jpg",
+        "origine": "Noxus",
+        "species": "Undead",
+        "description": "Sion est un champion ressuscité, utilisant sa force brute pour écraser ses ennemis."
+    },
+    {
+        "role": "Mage",
+        "name": "Kennen",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kennen_0.jpg",
+        "origine": "Ionia",
+        "species": "Yordle",
+        "description": "Kennen est un yordle ninja, capable d'utiliser la foudre pour attaquer ses ennemis."
+    },
+    {
+        "role": "Assassin",
+        "name": "Akali",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+        "origine": "Ionia",
+        "species": "Human",
+        "description": "Akali est une assassine agile, maîtrisant les arts martiaux et la magie."
+    },
+    {
+        "role": "Tank",
+        "name": "Ornn",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ornn_0.jpg",
+        "origine": "Freljord",
+        "species": "Elemental",
+        "description": "Ornn est un forgeron ancien capable de créer des objets magiques et de défendre son peuple."
+    },
+    {
+        "role": "Support",
+        "name": "Yuumi",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg",
+        "origine": "Bandle City",
+        "species": "Cat",
+        "description": "Yuumi est un chat magique qui aide ses alliés en les soutenant de n'importe où."
+    },
+    {
+        "role": "Fighter",
+        "name": "Gnar",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
+        "origine": "Bandle City",
+        "species": "Yordle",
+        "description": "Gnar est un yordle préhistorique capable de se transformer en une bête massive."
+    },
+    {
+        "role": "Marksman",
+        "name": "Vayne",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg",
+        "origine": "Demacia",
+        "species": "Human",
+        "description": "Vayne est une chasseresse de monstres, utilisant son agilité et son arc pour éliminer ses proies."
+    },
+    {
+        "role": "Mage",
+        "name": "Lissandra",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lissandra_0.jpg",
+        "origine": "Freljord",
+        "species": "Human",
+        "description": "Lissandra est une sorcière glaciale, manipulant la glace et l'ombre pour atteindre ses objectifs."
+    },
+    {
+        "role": "Tank",
+        "name": "Alistar",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
+        "origine": "Demacia",
+        "species": "Minotaure",
+        "description": "Alistar est un minotaure résistant, capable de protéger ses alliés et de les soigner."
+    },
+    {
+        "role": "Support",
+        "name": "Nautilus",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg",
+        "origine": "Bilgewater",
+        "species": "Human",
+        "description": "Nautilus est un colosse sous-marin, protégeant ses alliés avec son énorme armure."
+    },
+    {
+        "role": "Fighter",
+        "name": "Kled",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kled_0.jpg",
+        "origine": "Noxus",
+        "species": "Yordle",
+        "description": "Kled est un yordle fou, monté sur son fidèle destrier, capable de charger dans la bataille."
+    },
+    {
+        "role": "Marksman",
+        "name": "Samira",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg",
+        "origine": "Shurima",
+        "species": "Human",
+        "description": "Samira est une tireuse d'élite audacieuse, utilisant ses armes et son style flamboyant pour vaincre ses ennemis."
+    },
+    {
+        "role": "Tank",
+        "name": "Zac",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg",
+        "origine": "Zaun",
+        "species": "Elemental",
+        "description": "Zac est un être fait de matière gélatineuse, capable de se régénérer et de protéger ses alliés."
+    },
+    {
+        "role": "Mage",
+        "name": "Heimerdinger",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg",
+        "origine": "Bandle City",
+        "species": "Yordle",
+        "description": "Heimerdinger est un inventeur génial, utilisant des tourelles pour défendre ses alliés."
+    },
+    {
+        "role": "Fighter",
+        "name": "Rumble",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rumble_0.jpg",
+        "origine": "Bandle City",
+        "species": "Yordle",
+        "description": "Rumble est un yordle mécanicien, utilisant un véhicule pour lancer des attaques dévastatrices."
+    },
+    {
+        "role": "Marksman",
+        "name": "Ezreal",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+        "origine": "Piltover",
+        "species": "Human",
+        "description": "Ezreal est un explorateur magique, utilisant ses compétences pour lancer des projectiles à distance."
+    },
+    {
+        "role": "Assassin",
+        "name": "Diana",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
+        "origine": "Ionia",
+        "species": "Human",
+        "description": "Diana est une guerrière de la lune, maniant un arc magique pour attaquer ses ennemis."
+    },
+    {
+        "role": "Tank",
+        "name": "Cho'Gath",
+        "img": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/b5b1910f31e78d7b71c828da516b417146b62d4a-1215x717.jpg",
+        "origine": "Void",
+        "species": "Monster",
+        "description": "Cho'Gath est un monstre du Vide, capable d'engloutir ses ennemis et de devenir plus puissant."
+    },
+    {
+        "role": "Fighter",
+        "name": "Warwick",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
+        "origine": "Zaun",
+        "species": "Human",
+        "description": "Warwick est un chasseur de monstres, capable de traquer ses proies avec une grande efficacité."
+    }
+]
