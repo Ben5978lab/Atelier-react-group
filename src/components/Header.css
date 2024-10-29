@@ -5,17 +5,25 @@ body {
 header {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 150px;
     width: 100%;
     background-color: var(--mainColor);
+    border-bottom: 5px solid #c89b3c;
+
+
 
 }
 
 
+
+
+
+
+
 h1 {
     margin-top: 50px;
-    margin-right: 75px;
+    align-items: center;
     color: #c89b3c;
     height: 30%;
 }
@@ -24,7 +32,9 @@ header>nav>input {
     height: 50px;
     width: 350px;
     margin-top: 50px;
-    margin-left: 150px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(234, 234, 225);
 
 
 }
@@ -32,4 +42,6 @@ header>nav>input {
 #btn {
     height: 50px;
     width: 100px;
+    border-radius: 10px;
+    background-color: rgb(203, 203, 193);
 }

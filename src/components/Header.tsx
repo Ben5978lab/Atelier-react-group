@@ -25,6 +25,7 @@ function Header() {
                 <SearchBar initialList={data} handleOnChange={handleOnChange} />
                 <button id="btn"> Validez</button>
             </nav>
+
         </header>
     );
 }
