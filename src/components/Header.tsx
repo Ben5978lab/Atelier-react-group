@@ -23,7 +23,7 @@ function Header() {
             <h1> LOL Champions Explorer</h1>
             <nav>
                 <SearchBar initialList={data} handleOnChange={handleOnChange} />
-                <button id="btn"> Validez</button>
+
             </nav>
 
         </header>

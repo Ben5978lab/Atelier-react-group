@@ -10,15 +10,7 @@ header {
     width: 100%;
     background-color: var(--mainColor);
     border-bottom: 5px solid #c89b3c;
-
-
-
 }
-
-
-
-
-
 
 
 h1 {
@@ -35,13 +27,4 @@ header>nav>input {
     align-items: center;
     border-radius: 10px;
     background-color: rgb(234, 234, 225);
-
-
-}
-
-#btn {
-    height: 50px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: rgb(203, 203, 193);
 }
