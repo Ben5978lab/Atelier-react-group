@@ -1,0 +1,61 @@
+ul,
+li {
+  list-style-type: none;
+}
+
+#list-champion-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: var(--mainColor);
+  color: var(--textBorderColor);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  width: 66vw; /* TODELETE / EDIT mettre à 100% */
+  height: 80vh; /* TODELETE / EDIT mettre à 100% */
+}
+
+.card-container {
+  margin: 5% 0;
+  border: 1.66px solid var(--textBorderColor);
+  border-radius: 0 0 15px 15px;
+  width: 40%; /* TOEDIT 40% pour 2 elem, 30% pour 3 elem */
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-container > img {
+  border: 1px solid var(--textBorderColor);
+  width: 100%;
+}
+
+.card-container > h3 {
+  margin: auto;
+}
+
+#filters-container {
+  background-color: var(--mainColor);
+  color: var(--textBorderColor);
+  display: flex;
+  justify-content: space-evenly;
+  width: 66vw; /* TODELETE / EDIT mettre à 100% */
+}
+
+#filters-container > select {
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#filters-container > select,
+#filters-container > select > option {
+  background-color: var(--mainColor);
+  color: var(--textBorderColor);
+  border: 1px solid var(--textBorderColor);
+}
+#filters-container > select:focus-visible {
+  outline: none;
+}

@@ -154,7 +154,7 @@
     {
         "role": "Marksman",
         "name": "Kai'Sa",
-        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KaiSa_0.jpg",
+        "img": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/33ac4d0acbbdb7f6d3b36520c0a78873052d271a-1920x1133.jpg",
         "origine": "Void",
         "species": "Human",
         "description": "Kai'Sa est une chasseresse du Vide, utilisant des armes technologiques pour survivre."
@@ -220,7 +220,7 @@
         "name": "Rakan",
         "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rakan_0.jpg",
         "origine": "Ionia",
-        "species": "Xayah",
+        "species": "Vastaya",
         "description": "Rakan est un charmeur agile, capable de protéger ses alliés tout en restant rapide et mobile."
     },
     {
@@ -362,7 +362,7 @@
     {
         "role": "Tank",
         "name": "Cho'Gath",
-        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/ChoGath_0.jpg",
+        "img": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/b5b1910f31e78d7b71c828da516b417146b62d4a-1215x717.jpg",
         "origine": "Void",
         "species": "Monster",
         "description": "Cho'Gath est un monstre du Vide, capable d'engloutir ses ennemis et de devenir plus puissant."
