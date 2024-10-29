@@ -11,10 +11,10 @@ interface Champion {
 
 interface SearchBarProps {
     initialList: Champion[];  // Liste complète non filtrée
-    setList: React.Dispatch<React.SetStateAction<Champion[]>>;
+    handleOnChange: (filteredData: Champion[]) => void;
 }
 
-const SearchBar = ({ initialList, setList }: SearchBarProps) => {
+const SearchBar = ({ initialList, handleOnChange }: SearchBarProps) => {
     const [value, setValue] = useState("");
 
     useEffect(() => {
@@ -24,9 +24,8 @@ const SearchBar = ({ initialList, setList }: SearchBarProps) => {
                 hero.name.toLowerCase().includes(value.toLowerCase())
             )
             : initialList;
-
-        setList(filteredList); // Met à jour uniquement avec les résultats filtrés ou la liste complète
-    }, [value, initialList, setList]);
+        handleOnChange(filteredList); // Met à jour uniquement avec les résultats filtrés ou la liste complète
+    }, [value, initialList, handleOnChange]);
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setValue(event.target.value);
