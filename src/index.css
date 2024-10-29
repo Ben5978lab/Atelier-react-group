@@ -5,3 +5,8 @@
     --secondaryColor: #162832;
 
 }
+
+main {
+
+    display: flex;
+}

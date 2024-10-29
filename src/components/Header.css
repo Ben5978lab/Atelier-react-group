@@ -26,5 +26,6 @@ header>nav>input {
     margin-top: 50px;
     align-items: center;
     border-radius: 10px;
-    background-color: rgb(234, 234, 225);
+    border-color: var(--textBorderColor);
+    background-color: var(--secondaryColor);
 }
