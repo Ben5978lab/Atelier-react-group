@@ -1,6 +1,6 @@
 /* Typography */
 
-.container {
+.container-rightside {
   color: var(--textBorderColor);
   padding: 15px;
 }
@@ -13,23 +13,31 @@ p {
   font-size: 16px;
 }
 
-.container {
-  width: 33vw;
+.container-rightside {
+  width: 34vw;
   background-color: var(--mainColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-left: 2px solid var(--textBorderColor);
 }
 
-.container2 {
+.container-description {
   border: 2px solid var(--textBorderColor);
-  width: 90%;
+  width: 80%;
   margin: 15px auto 0;
   background-color: var(--secondaryColor);
   border-radius: 15px;
 }
 
-img {
+.container-rightside > img {
   display: flex;
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
+  object-fit: cover;
+  height: 400px;
+  border: 2px solid var(--textBorderColor);
+
   border-radius: 15px;
 }
 

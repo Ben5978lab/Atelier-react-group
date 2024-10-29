@@ -52,7 +52,7 @@ function ListChampion() {
     else if (e.target.name === "Origin") setOriginFilter(e.target.value);
   }
   return (
-    <>
+    <div>
       <div id="filters-container">
         <FilterList handleChange={handleFilterChange} data={data} />
       </div>
@@ -70,7 +70,7 @@ function ListChampion() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 
